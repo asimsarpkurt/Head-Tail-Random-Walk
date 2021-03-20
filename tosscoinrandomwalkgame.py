@@ -10,7 +10,7 @@ Created on Sat Mar 20 16:22:18 2021
 #To have it randomly generate either 0 or 1, we pass two arguments: the first argument should be 0, the second one 2, because 2 is not going to be included. 
 #If we print out coin, and then run the script, we get a random integer, 0. 
 #You can now use this coin to play a game.
-#Main objective is turning  head-tail coins toss into a Random Walk Game. 
+#Main objective is turning  head-tail coins toss into a Random Walk Game and visualizing it.
 import numpy as np
     # Numpy is imported, seed is set
 np.random.seed(3)	
