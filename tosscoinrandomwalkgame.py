@@ -12,7 +12,8 @@ Created on Sat Mar 20 16:22:18 2021
 #You can now use this coin to play a game.
 #Main objective is turning  head-tail coins toss into a Random Walk Game and visualizing it.
 import numpy as np
-    # Numpy is imported, seed is set
+import matplotlib.pyplot as plt
+   
 np.random.seed(3)	
 # Initialize random_walk
 random_walk = [0]
@@ -38,3 +39,5 @@ for x in range(100) :
     random_walk.append(step)
 # Print random_walk
 print(random_walk)
+plt.plot(random_walk)
+plt.show()
